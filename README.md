@@ -6,6 +6,8 @@ A barebones rewrite of [christoomey/vim-tmux-navigator](https://github.com/chris
 * uses <prefix>+key as keybinds for navigation instead of single keybinds as in vim-tmux-navigator (namely `<C-h>`, `<C-j>`, `<C-k>`, `<C-l>`)
 * no need to sacrifice four separate keybinds just for navigation (eg. vim-tmux-navigator uses `<C-l>` to navigate to rigt pane, but this is already the readline keybind for clearing screen. There is a workaround to use `<prefix>`+`<C-l>` to clear screen instead, but if `<C-l>` to clear screen is already in your muscle memory then this takes a while to get used to)
 
+__This assumes `<C-q>` as the tmux prefix key__
+
 ## Usage
 
 **Tmux**
